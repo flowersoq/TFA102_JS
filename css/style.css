@@ -108,7 +108,6 @@ main a
 #imgbox img
 {
     max-width: 245px;
-    opacity: 0.8;
 }
 #imgbox img:hover
 {
