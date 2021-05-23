@@ -108,6 +108,7 @@ main a
 #imgbox img
 {
     max-width: 245px;
+    min-width: 245px;
 }
 #imgbox img:hover
 {

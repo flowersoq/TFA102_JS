@@ -17,7 +17,24 @@ function addEvent(eleId, imgPath, color) {
         document.querySelector('.starbucks').setAttribute('src', "img/img1.png");
         document.querySelector('#bgColor').style.backgroundColor = "salmon";
     });
-}
+} //非按鈕 : 滑動寫法 連動背景色(缺點:較不靈活)
+
+
+// window.addEventListener('load', init)
+
+// function init(){
+//     document.querySelector('.All_img').querySelectorAll('img')
+//     .forEach(function(ele){
+//         ele.addEventListener('click', change_img)
+//         }
+//     );
+// };
+
+// function change_img(e){
+//     let new_img = e.target.getAttribute('src');
+//     document.querySelector('#imgbox').querySelector('img').setAttribute('src', new_img);
+// } //上課練習寫法 不改變背景色
+
 
 // document.querySelector('.greentee').addEventListener('click', function(){
 //     console.log("test "+(document.querySelector('.greentee').classList.length));
@@ -30,4 +47,4 @@ function addEvent(eleId, imgPath, color) {
 //         document.querySelector('.starbucks').setAttribute('src', "img/img1.png");
 //         document.querySelector('#bgColor').style.backgroundColor = "salmon";
 //     }
-// });
+// }); //方法一
